@@ -1,12 +1,8 @@
 ## 最完善的 iOS Shadowrocket规则
 
-### 试更新公告
+### 写在前面
 
-由于原作者 [h2y](https://github.com/h2y) 已停止维护 [Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)，Shadowrocket 再无划分如此细致精美的规则。因此我决定用自己有限的能力和技术对该项目以个人的理解进行更新与维护。**所有规则都会在每天北京时间 8:00 更新发布。**
-
-### 写在前面 —— 请保护好自己
-
-谷歌中英文的搜索体验都优于百度，美剧、日劇都很好看。
+谷歌中英文的搜索体验都优于百度，美剧、日劇都很好看，自由非常美好。
 
 ------------------------------------------------------
 
@@ -26,7 +22,6 @@
 - 方便的快捷指令与自动化联动，每天自动更新规则；
 - 增加使用代理组的懒人配置；
 - 由于世界排名 top 500 网站列表已无法通过无账户/免费方式取得，故原来的 top500 检测方法失效。我已根据旧的 top500 榜单重构了新的 top500 网站连接情况表。**同时，希望大家可以帮助 pull requests 一份最新的 top500 榜单: [格式](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/blob/build/factory/resultant/top500_manual.list)**
-- **所有发布的规则都会在每天北京时间 8:00 更新发布**
 
 
 ## 规则列表
@@ -114,12 +109,6 @@ INTP | Jack of all trades | I use Arch BTW
 - **无法正常跳转 Safari 对 google.cn 的请求**
 
 > 轻击配置 -> 轻击本地文件中正在使用的规则文件后的ℹ️ -> HTTPS 解密 -> 将右上角开关启动 -> 安装证书 -> 允许 -> 打开系统设置 -> 已下载描述文件 -> 安装 -> 输入密码 -> 安装 -> 通用 -> 关于本机 -> 证书信任设置 -> 对刚刚安装的根证书完全信任 即可正常跳转。
-
-## 问题反馈
-
-任何问题欢迎在 [Issues](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/issues) 中反馈。
-
-你的反馈会让此规则变得更加完美。
 
 **如何贡献代码？**
 
